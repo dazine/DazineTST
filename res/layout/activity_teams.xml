@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gras_background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="18dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/buttonTeam1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_action_tab1"
+                android:text="@string/kogelvangers"
+                android:textAlignment="center"
+                android:textAppearance="@style/ButtonTextTheme" />
+
+            <Button
+                android:id="@+id/buttonTeam2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_action_tab2"
+                android:text="@string/kogelvangers"
+                android:textAlignment="center"
+                android:textAppearance="@style/ButtonTextTheme" />
+
+            <Button
+                android:id="@+id/buttonTeam3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_action_tab3"
+                android:text="@string/kogelvangers"
+                android:textAlignment="center"
+                android:textAppearance="@style/ButtonTextTheme" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
